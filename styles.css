@@ -1,0 +1,166 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&family=Roboto+Mono:ital,wght@0,300;0,400;1,700&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
+}
+
+header {
+  max-width: 1920px;
+  width: 100%;
+  height: 89vh;
+  margin: 0 auto;
+  background-image: url(./images/star\ uó\ topo.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: left top;
+}
+
+.container-figures {
+  position: relative;
+}
+
+.container-figures_jedi img {
+  top: 10px;
+  left: 128px;
+  position: absolute;
+  z-index: 2;
+  width: 70vw;
+  height: 102vh;
+}
+
+.container-figures_star img {
+  position: absolute;
+  top: 310px;
+  left: 240px;
+  width: 24vw;
+  height: 11vh;
+}
+
+.container-figures_wars img {
+  position: absolute;
+  top: 310px;
+  left: 880px;
+  width: 24vw;
+  height: 11vh;
+}
+
+.container-createlegion {
+  width: 15vw;
+  height: 20vh;
+  position: absolute;
+  bottom: 120px;
+  right: 75px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-evenly;
+}
+
+.container-text {
+  color: #000;
+  font-size: 20px;
+  text-transform: uppercase;
+  width: 10vw;
+}
+
+.container-text span {
+  font-weight: 700;
+  margin-left: 5px;
+}
+
+.container-border {
+  width: 8.5vw;
+  border: solid 1px #000;
+}
+
+.container-buttons {
+  color: #000;
+  display: flex;
+  justify-content: space-between;
+  width: 7vw;
+}
+
+.container-buttons span {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.container-buttons p {
+  font-size: 14px;
+}
+
+.container-buttons button {
+  color: #000;
+  border: none;
+  font-weight: 700;
+  text-align: center;
+  margin-top: 10px;
+  margin-left: 5px;
+  background-color: #a9bdc1;
+  width: 15px;
+  height: 15px;
+  cursor: pointer;
+}
+
+@media (max-width: 1024px) {
+  header {
+    max-width: 1024px;
+    width: 100%;
+    height: 78vh;
+    background-size: cover;
+    background-position: center top;
+  }
+
+  .container-figures_jedi img {
+    top: 20px;
+    left: 100px;
+    width: 70vw;
+    height: 90vh;
+  }
+
+  .container-figures_star img {
+    top: 250px;
+    left: 230px;
+    width: 20vw;
+    height: 10vh;
+  }
+
+  .container-figures_wars img {
+    top: 250px;
+    left: 670px;
+    width: 20vw;
+    height: 10vh;
+  }
+
+  .container-createlegion {
+    width: 15vw;
+    height: 25vh;
+    bottom: 100px;
+    right: 85px;
+  }
+
+  .container-text {
+    font-size: 20px;
+  }
+
+  .container-border {
+    width: 11.5vw;
+    border: solid 2px #000;
+  }
+
+  .container-buttons {
+    width: 15vw;
+  }
+
+  .container-buttons button {
+    text-align: center;
+    margin-top: 10px;
+  }
+
+  .container-click {
+    margin-right: 60px;
+  }
+}
