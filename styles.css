@@ -164,3 +164,73 @@ header {
     margin-right: 60px;
   }
 }
+
+@media (max-width: 768px) {
+  header {
+    max-width: 768px;
+    height: 62vh;
+    background-size: cover;
+    background-position: left center;
+  }
+
+  .container-figures_jedi img {
+    top: 2px;
+    left: 85px;
+    width: 70vw;
+    height: 75vh;
+  }
+
+  .container-figures_star img {
+    top: 190px;
+    left: 180px;
+    width: 20vw;
+    height: 9vh;
+  }
+
+  .container-figures_wars img {
+    position: absolute;
+    top: 190px;
+    left: 515px;
+    width: 20vw;
+    height: 9vh;
+  }
+
+  .container-createlegion {
+    width: 20vw;
+    height: 25vh;
+    bottom: 165px;
+    right: 10px;
+  }
+
+  .container-text {
+    font-size: 18px;
+  }
+
+  .container-border {
+    width: 14vw;
+    border: solid 3px #000;
+  }
+
+  .container-buttons {
+    width: 22vw;
+  }
+
+  .container-buttons span {
+    font-size: 18px;
+  }
+
+  .container-buttons p {
+    font-size: 12px;
+  }
+
+  .container-buttons button {
+    margin-top: 5px;
+    margin-left: 5px;
+    width: 20px;
+    height: 20px;
+  }
+
+  .container-click {
+    margin-right: 65px;
+  }
+}
