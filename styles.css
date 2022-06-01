@@ -7,6 +7,8 @@
   font-family: "Roboto", sans-serif;
 }
 
+/* About Header */
+
 header {
   max-width: 1920px;
   width: 100%;
@@ -104,6 +106,10 @@ header {
   height: 15px;
   cursor: pointer;
 }
+
+/* End Header */
+
+/* Start Fisrt Division */
 
 .container-fisrtdiv {
   height: 70vh;
@@ -224,6 +230,10 @@ header {
   line-height: 15px;
 }
 
+/* End Fisrt Division */
+
+/* Division */
+
 .container-division {
   display: flex;
   align-items: center;
@@ -238,6 +248,10 @@ header {
   position: absolute;
   bottom: 20px;
 }
+
+/* Division */
+
+/* Start second division */
 
 .container-seconddiv {
   width: 100%;
@@ -335,7 +349,11 @@ header {
   color: #fff;
 }
 
+/* End second division */
+
 @media (max-width: 1024px) {
+  /* Start Header */
+
   header {
     max-width: 1024px;
     width: 100%;
@@ -393,6 +411,8 @@ header {
   .container-click {
     margin-right: 60px;
   }
+
+  /* End Header */
 }
 
 @media (max-width: 768px) {
