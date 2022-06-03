@@ -645,6 +645,19 @@ header {
   }
 
   /* End Second Division */
+
+  /* Start Third Division */
+
+  .container-hierarchy {
+    background-size: contain;
+  }
+
+  .container-hierarchy_text p {
+    width: 70%;
+    margin-bottom: 200px;
+  }
+
+  /* End Third Division */
 }
 
 @media (max-width: 768px) {
@@ -868,6 +881,25 @@ header {
   }
 
   /* End Second Division */
+
+  /* Start third division  */
+
+  .container-attributes_photos {
+    height: 50vh;
+  }
+
+  .container-hierarchy_text {
+    width: 90%;
+    height: 10vh;
+  }
+
+  .container-hierarchy_text p {
+    font-size: 14px;
+    width: 90%;
+    margin-top: -280px;
+  }
+
+  /* End third division  */
 }
 
 @media (max-width: 425px) {
@@ -1121,4 +1153,88 @@ header {
   }
 
   /* End Second Division */
+
+  /* Start third divison */
+
+  .container-attributes {
+    max-width: 1920px;
+    width: 100%;
+    margin: auto;
+    height: 300vh;
+    background-color: #2d2d2d;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+
+  .container-attributes_text {
+    text-align: center;
+  }
+
+  .container-attributes h2 {
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 30px;
+  }
+
+  .container-attributes_photos {
+    width: 90%;
+    height: 200vh;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .container-photos_bigbox {
+    width: 80%;
+    height: 30%;
+  }
+
+  .container-photo_smallbox {
+    width: 80%;
+    height: 100%;
+    display: flex;
+    flex-wrap: unset;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .container-photo_clone {
+    width: 100%;
+    height: 100%;
+  }
+
+  .container-photo_robo {
+    width: 100%;
+    height: 100%;
+  }
+
+  .container-photo_spacewar {
+    width: 100%;
+    height: 100%;
+  }
+
+  .container-photo_threeclones {
+    width: 100%;
+    height: 100%;
+  }
+
+  .container-hierarchy {
+    width: 90%;
+    height: 50vh;
+    background-image: url(./images/star-wars_stormtrooper_hierarquia.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+
+  .container-hierarchy_text p {
+    font-size: 12px;
+    width: 90%;
+    margin-bottom: -150px;
+  }
+
+  /* End third divison */
 }
